@@ -11,8 +11,8 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>FirstServlet</servlet-name>
-        <url-pattern>hello-world</url-pattern>
+        <servlet-name>firstJsp</servlet-name>
+        <url-pattern>.jsp</url-pattern>
     </servlet-mapping>
 
 </web-app>
