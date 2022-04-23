@@ -6,13 +6,12 @@
 
 
     <servlet>
-        <servlet-name>FirstServlet</servlet-name>
-        <servlet-class>FirstServlet</servlet-class>
+        <servlet-name>GetStartPageServlet</servlet-name>
+        <servlet-class>com.gmail.oleksandrpopovych89.servlets.FirstServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>firstJsp</servlet-name>
-        <url-pattern>.jsp</url-pattern>
+        <servlet-name></servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
-
 </web-app>
